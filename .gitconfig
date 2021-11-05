@@ -1,0 +1,14 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = d4nielj
+	email = d4niel.djm@gmail.com
+[color]
+	ui = true
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
