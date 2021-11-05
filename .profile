@@ -6,7 +6,7 @@ export PATH=/home/d4nielj/nodejs/bin:$PATH
 alias off='shutdown now'
 alias cx=clear
 alias nr='npm run'
-alias add='sudo dnf install'
+alias dnfi='sudo dnf install'
 
 ## Linting
 alias lihint='npx hint .'
@@ -20,19 +20,19 @@ alias wps='./bin/webpack-dev-server'
 
 ## Git
 alias gam='addall && commit'
-alias addup='git add -u'
-alias addall='git add .'
+alias gau='git add -u'
+alias ga.='git add .'
 alias branch='git branch'
 alias checkout='git checkout'
 alias clone='git clone'
-alias commit='git commit -m'
+alias gcm='git commit -m'
 alias fetch='git fetch'
 alias pull='git pull origin'
 alias push='git push origin'
 alias stat='git status'  # 'status' is protected name so using 'stat' instead
 alias tag='git tag'
 alias newtag='git tag -a'
-alias glog='git log --graph --decorate --oneline' # this one is just pure terminal beauty
+alias log='git log --graph --decorate --oneline' # this one is just pure terminal beauty
 
 # Changing 'ls' to 'exa'
 alias ls='exa -al --color=always --group-directories-first' # my preferred listing
@@ -43,3 +43,4 @@ alias l.="exa -a | egrep '^\.'"
 
 # bare git repo alias for dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+
