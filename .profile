@@ -19,7 +19,7 @@ alias licss="npx stylelint \'**/*.{css,scss}\'"
 alias wps='./bin/webpack-dev-server'
 
 ## Git
-alias gam='addall && commit'
+alias gam='ga. && commit'
 alias gau='git add -u'
 alias ga.='git add .'
 alias branch='git branch'
