@@ -19,11 +19,12 @@ alias licss="npx stylelint \'**/*.{css,scss}\'"
 alias wps='./bin/webpack-dev-server'
 
 ## Git
-alias gam='ga. && commit'
+alias gam='ga. && gcm'
 alias gau='git add -u'
 alias ga.='git add .'
 alias branch='git branch'
-alias checkout='git checkout'
+alias gco='git checkout'
+alias gcob='gco -b'
 alias clone='git clone'
 alias gcm='git commit -m'
 alias fetch='git fetch'
