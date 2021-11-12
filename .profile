@@ -45,3 +45,7 @@ alias l.="exa -a | egrep '^\.'"
 # bare git repo alias for dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
