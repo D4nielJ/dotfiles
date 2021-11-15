@@ -10,7 +10,7 @@ alias dnfi='sudo dnf install'
 
 ## Linting
 alias lihint='npx hint .'
-alias liscss="npx stylelint \'**/*.scss\'"
+alias lisass="npx stylelint '**/*.scss'"
 alias lies='npx eslint .'
 alias lilh='lighthouse http://127.0.0.1:5500/'
 alias licss="npx stylelint \'**/*.{css,scss}\'"
@@ -43,7 +43,7 @@ alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.="exa -a | egrep '^\.'"
 
 # bare git repo alias for dotfiles
-alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/Dotfiles --work-tree=$HOME"
 
 # confirm before overwriting something
 alias cp="cp -i"
